@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #162D72 !important;
+    
+}
+.linksNav{
+    color:#FECB21 !important ;
+}
+.tituloNavBar{
+    color:#FECB21 !important ;
+    margin-left: -15%;
+}
+.content_slide-inicial{
+    height: 625px;
+    display: contents;
+    margin-bottom: 10px;
+}
+
+.carousel-item-inicial img{
+    height: 350px;
+}
+
+.Content-slide{
+    height: 250px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    display: flex;
+    border-color: 1px solid whitesmoke;
+}
+
+
+.Content-slide .slide-izq{
+    width: 50%;
+    border: 1px solid whitesmoke;
+    
+}
+
+.slide-der{
+    background-color: #333A40;
+    width: 50%;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.carousel-item-secundarios img {
+    height: 250px;
+}
+.slider-titulo{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 34px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px black;
+}
+.slider-tituloMini{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 24px;
+    background-color: #162D72 ;
+    border-radius: 10px;
+    box-shadow: 5px 2px 2px black;
+}
+.carousel-caption p{
+    color: #FECB21;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.container-cards{
+    margin-left: 10% !important;
+    width: 78%;
+}
+
+.tituloComentarioSocios{
+    text-align: center;
+}
+
+.tarjeta-socios{
+    box-shadow: 2px 2px 1px grey, 1px 1px 1px grey !important;
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: #333A40;
+}
+.piedePagina{
+   text-align: center;
+}
+.piedePaginaDev{
+    text-align: center;
+    color: #fffe;
+}
+.redSocial{
+	margin-left:2rem;
+  text-decoration: none; 
+}
+.redSocial i{
+	font-size: 2rem;
+}
+.fa-linkedin{
+	color: #0079B6;	
+}
+.fa-github{
+	color: #161B22;
+}
+.fa-laptop-code{
+  color: #C34F34;
+}

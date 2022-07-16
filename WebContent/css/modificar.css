@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+@import url(./style.css);
+
+
+.lead {
+  margin: 1rem;
+  border: 1px solid #f4e7a5;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px #F8F9FA, 1px 0 1px #f4e7a5;
+}
+.lead-modificar{
+    background-color: #f4e7a5;
+    padding: 1rem;
+}
