@@ -16,7 +16,9 @@ public class Conexion
 		try
 		{
 			Class.forName(driver);
-			conexion=DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto22025","root","");
+			//conexion=DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto22025","root","");
+			conexion=DriverManager.getConnection("jdbc:mysql://uep8pyoszq8sbsgs:0MYQW7HnIdXwVV6NaLXL@bxpefafgeyf6j2nl4bym-mysql.services.clever-cloud.com:3306/bxpefafgeyf6j2nl4bym","uep8pyoszq8sbsgs","0MYQW7HnIdXwVV6NaLXL");
+			
 		}
 		catch(SQLException e)
 		{
